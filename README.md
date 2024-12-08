@@ -2,10 +2,7 @@
 Full Stack Blog Website 
 
 Tech Used --
-
-  FrontEnd - Ejs
-  BackEnd - Node.js & Express.js
-  Database - MongoDB
+  Ejs, Node.js, Express.js & MongoDb
 
 -- Main page --
 ![screencapture-localhost-5000-2024-12-08-23_21_48](https://github.com/user-attachments/assets/6fdcf5b0-c359-4d26-96f4-b919505d8fce)
