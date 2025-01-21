@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const connectDB = async () => {
     try {
-        const conn = await mongoose.connect(process.env.MONGO_URI, {
+        const conn = await mongoose.connect(process.env.MONGO_URI, { // mongodb+srv://admin:pass@cluster0.en36s.mongodb.net/blog?retryWrites=true&w=majority
             useNewUrlParser: true,
             useUnifiedTopology: true,
         });
@@ -19,3 +19,4 @@ module.exports = connectDB;
 
 
 mongoose.set('strictQuery', false);
+
